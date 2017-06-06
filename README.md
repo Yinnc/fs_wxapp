@@ -12,4 +12,5 @@ Code Conventions
 7. Continuation line indention > 4 spaces
 8. No trailing spaces allowed
 9. JDoc /** @type {! Array<number>}*/ above or inline for constant definition, function arguments.
+10. Do NOT use array constructor, use: const a = [x1]; allocate length if have to use constructor, new Array(length)
 10. Semicolon ";" after statement, no semicolon after method
